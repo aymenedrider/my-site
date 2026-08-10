@@ -56,3 +56,68 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aymenedrider</title>
+    <!-- ربط ملف التنسيق CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ربط مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. عنصر الخلفية (إما صورة أو فيديو) -->
+    <div class="background">
+        <!-- إذا أردت استخدام فيديو بدلاً من صورة: -->
+        <!-- <video autoplay muted loop class="bg-video">
+            <source src="assets/background.mp4" type="video/mp4">
+        </video> -->
+    </div>
+
+    <div class="container">
+        <!-- 2. الصورة الشخصية -->
+        <div class="profile-pic">
+            <img src="assets/avatar.jpg" alt="الصورة الشخصية">
+        </div>
+
+        <h1>aymenedrider</h1>
+        <p>Gamer | Game dev | Dev web</p>
+
+        <!-- بطاقة الحالة (يمكنك تغيير المحتوى) -->
+        <div class="status-card">
+            <i class="fab fa-discord"></i>
+            <span>Playing Wallpaper Engine</span>
+        </div>
+
+        <!-- روابط السوشيال ميديا -->
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-steam"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+
+        <!-- 3. مشغل الموسيقى -->
+        <div class="music-player">
+            <div class="song-info">
+                <i class="fas fa-music"></i>
+                <span>اسم الأغنية هنا</span>
+            </div>
+            <div class="player-controls">
+                <!-- عنصر الصوت الخفي -->
+                <audio id="myAudio" src="assets/song.mp3"></audio>
+                <button id="play-btn"><i class="fas fa-play"></i></button>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ربط ملف JavaScript للتحكم بالصوت -->
+    <script src="script.js"></script>
+</body>
+</html>
